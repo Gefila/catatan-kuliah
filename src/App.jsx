@@ -1,10 +1,12 @@
-function App() {
+import LoginPages from "./pages/LoginPages";
+import RegisterPage from "./pages/RegisterPage";
 
-  return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
+function App() {
+    return (
+        <>
+            <RegisterPage></RegisterPage>
+        </>
+    );
 }
 
-export default App
+export default App;
