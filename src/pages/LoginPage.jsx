@@ -1,6 +1,6 @@
 import TextInput from "../components/TextInput";
 
-export default function LoginPages() {
+export default function LoginPage() {
     return (
         <div className="flex items-center justify-center h-screen bg-slate-900">
             <div className="flex flex-col  bg-slate-800 p-6 rounded-lg justify-center items-center gap-2">
