@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SearchInput from "../components/SearchInput";
 import Select from "../components/Select";
+import DaftarTugas from "../components/DaftarTugas";
 
 export default function Dashboard() {
 	const [data, setData] = useState([
@@ -27,6 +28,11 @@ export default function Dashboard() {
 				<SearchInput styles={"w-0 grow-[1.9]"} />
 				<Select styles={"w-0 grow-[1]"} />
 			</div>
+
+			<div className="flex flex-row p-4 justify-center items-end gap-2 w-full text-white">
+				<DaftarTugas />
+			</div>
+
 			<div className="flex flex-col p-4 justify-center items-start gap-2 w-full text-white">
 				<p>Daftar Matkul</p>
 				{data.map((item) => (
